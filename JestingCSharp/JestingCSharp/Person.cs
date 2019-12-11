@@ -9,6 +9,8 @@ namespace JestingCSharp {
 		[Index(1)]
 		public string Name { get; }
 
+		public Person() { }
+
 		public Person(int id, string name) {
 			Id = id;
 			Name = name;
